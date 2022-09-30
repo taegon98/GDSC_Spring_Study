@@ -1,6 +1,6 @@
 package hello.hellospring.DAO;
 
-import hello.hellospring.domain.Member;
+import hello.hellospring.entity.Member;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

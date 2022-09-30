@@ -1,12 +1,10 @@
 package hello.hellospring.DAO;
 
-import hello.hellospring.domain.Member;
-import org.springframework.stereotype.Repository;
+import hello.hellospring.entity.Member;
 
 import java.util.List;
 import java.util.Optional;
 
-@Repository
 public interface MemberDAO {
     Member save(Member member);
     Optional<Member> findById(Long id);

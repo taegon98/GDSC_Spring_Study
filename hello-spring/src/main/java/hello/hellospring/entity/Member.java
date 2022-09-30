@@ -1,4 +1,4 @@
-package hello.hellospring.domain;
+package hello.hellospring.entity;
 
 import lombok.Data;
 
